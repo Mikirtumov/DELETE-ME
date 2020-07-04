@@ -1,2 +1,0 @@
-(this["webpackJsonpredux-todo"]=this["webpackJsonpredux-todo"]||[]).push([[0],{14:function(e,t,n){},15:function(e,t,n){},22:function(e,t,n){"use strict";n.r(t);var o=n(0),r=n.n(o),c=n(1),a=n.n(c);n(14),n(15);var u=function(){return r.a.createElement("div",null,"REDUX REACT")},i=n(8),l=n(2),d=Object(l.b)((function(){}));a.a.render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(i.a,{store:d},r.a.createElement(u,null))),document.getElementById("root"))},9:function(e,t,n){e.exports=n(22)}},[[9,1,2]]]);
-//# sourceMappingURL=main.9b6c014e.chunk.js.map
