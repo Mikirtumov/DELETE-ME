@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Board from "./Board";
 
-function App() {
+function Board() {
   return (
     <div>
-      <Board/>
+      <h1>REDUX REACT</h1>
     </div>
   );
 }
 
-export default App;
+export default Board;
