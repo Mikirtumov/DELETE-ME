@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {connect} from "react-redux";
 
 function Board() {
   return (
@@ -9,4 +10,8 @@ function Board() {
   );
 }
 
-export default Board;
+const mapStateToProps = (state) => ({
+    todos: state.todos
+});
+
+export default connect(mapStateToProps, null)(Board);
