@@ -6,7 +6,7 @@ function Board(props) {
     const {todos} = props
   return (
     <div>
-        {todos.map(el => <li>{el.name}</li>)}
+        {todos.map(el => <li>{el.title}</li>)}
     </div>
   );
 }
