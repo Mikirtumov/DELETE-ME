@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import {connect} from "react-redux";
 
-function Board() {
+function Board(props) {
+    const {todos} = props
   return (
     <div>
-      <h1>REDUX REACT</h1>
+        {todos.map(el => <li>{el.name}</li>)}
     </div>
   );
 }
