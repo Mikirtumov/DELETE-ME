@@ -15,7 +15,7 @@ function Board(props) {
 
   return (
     <div>
-        {todos.map(el => <li>{el.title}</li>)}
+        {todos.map(el => <li key={el.id}>{el.title}</li>)}
         <input
             value={newTodo}
             onChange={(e) => setNewTodo(e.target.value)}

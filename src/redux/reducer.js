@@ -3,9 +3,11 @@ const initialState = {
         {
             title: 'First todo',
             done: true,
+            id: 1,
         }, {
             title: 'Second todo',
             done: false,
+            id: 2,
         }
     ]
 };
