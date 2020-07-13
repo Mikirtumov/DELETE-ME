@@ -7,6 +7,8 @@ function Board(props) {
   return (
     <div>
         {todos.map(el => <li>{el.title}</li>)}
+        <input type="text"/>
+        <button>Push</button>
     </div>
   );
 }
