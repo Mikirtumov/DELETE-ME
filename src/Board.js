@@ -9,7 +9,7 @@ function Board(props) {
     const [newTodo, setNewTodo] = useState('');
 
     const addButtonHandler = () => {
-        addTodo(todos)
+        addTodo(newTodo)
         setNewTodo('')
     }
 
