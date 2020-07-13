@@ -14,7 +14,7 @@ function Board(props) {
     }
 
   return (
-    <div>
+    <div className='App'>
         {todos.map(el => <li key={el.id}>{el.title}</li>)}
         <input
             value={newTodo}
