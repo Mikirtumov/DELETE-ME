@@ -4,7 +4,7 @@ import {connect} from "react-redux";
 
 function Board(props) {
 
-    const {todos, addTodo} = props
+    const {todos, addTodo, delTodos} = props
 
     const [newTodo, setNewTodo] = useState('');
 
@@ -17,7 +17,7 @@ function Board(props) {
     <div className='App'>
         {todos.map(el => <li key={el.id}>
             {el.title}
-            <button>Del</button>
+            <button onClick={() => delTodos(el.id)}>Del</button>
 
         </li>)}
         <input
@@ -34,7 +34,8 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    addTodo: (todo) => dispatch({ type: 'TODO_ADD', payload: todo })
+    addTodo: (todo) => dispatch({ type: 'TODO_ADD', payload: todo }),
+    delTodos: (taskId) => dispatch({ type: 'TODO_DEL', payload: taskId }),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Board);

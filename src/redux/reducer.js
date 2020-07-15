@@ -20,7 +20,12 @@ const todo = (state = initialState, action) => {
                 ...state,
                 todos: [...state.todos, { title: action.payload, done: false }]
             };
-
+        case 'TODO_DEL':
+            const delTodos = state.todos.filter(el => el.id !== action.payload)
+            return {
+                ...state,
+                todos: delTodos
+            };
         default:
             return state;
     }
