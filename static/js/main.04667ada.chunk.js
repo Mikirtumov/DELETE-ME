@@ -1,0 +1,2 @@
+(this.webpackJsonpredux=this.webpackJsonpredux||[]).push([[0],[,,,function(e,n,t){e.exports=t(10)},,,,,function(e,n,t){},function(e,n,t){},function(e,n,t){"use strict";t.r(n);var r=t(0),u=t.n(r),c=t(2),a=t.n(c);t(8),t(9);var o=function(){return u.a.createElement("div",null,"REDUX REACT")};a.a.render(u.a.createElement(u.a.StrictMode,null,u.a.createElement(o,null)),document.getElementById("root"))}],[[3,1,2]]]);
+//# sourceMappingURL=main.04667ada.chunk.js.map
